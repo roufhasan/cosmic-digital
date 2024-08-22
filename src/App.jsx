@@ -1,6 +1,7 @@
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
 import ScrollSpy from "react-ui-scrollspy";
+import Services from "./components/Services/Services";
 
 const App = () => {
   return (
@@ -12,10 +13,8 @@ const App = () => {
         scrollThrottle={50}
       >
         <Hero />
-        <div id="services" className="h-screen">
-          serv
-        </div>
-        <div id="projects" className="h-screen">
+        <Services />
+        <div id="projects" className="mt-20 h-screen">
           projects
         </div>
         <div id="contact" className="h-screen">

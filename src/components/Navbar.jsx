@@ -1,6 +1,6 @@
+import { useEffect, useState } from "react";
 import { BsList, BsX } from "react-icons/bs";
 import { navLinks } from "../assets/data/navLinks";
-import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
