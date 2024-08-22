@@ -1,8 +1,8 @@
-const Container = ({ children }) => {
+const Container = ({ id, children }) => {
   return (
-    <section className="mx-auto w-full max-w-[1920px] px-4 sm:px-2 md:px-10">
+    <div id={id} className="mx-auto w-full max-w-[1920px] px-4 md:px-10">
       {children}
-    </section>
+    </div>
   );
 };
 

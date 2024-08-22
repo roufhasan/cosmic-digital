@@ -14,7 +14,7 @@ const Navbar = () => {
   }, [showMenu]);
 
   return (
-    <nav className="left-0 top-0 z-10 mx-auto flex h-20 w-full max-w-[1920px] items-center justify-between border-[2px] border-[#7d7d7d2b] bg-[#d3d3d357] bg-opacity-10 bg-clip-padding px-4 py-5 shadow-sm backdrop-blur-md backdrop-filter md:fixed md:px-10">
+    <nav className="fixed top-0 z-10 mx-auto flex h-20 w-full max-w-[1920px] items-center justify-between bg-[#d3d3d357] bg-opacity-10 bg-clip-padding px-4 py-5 shadow-sm backdrop-blur-md backdrop-filter md:left-1/2 md:right-1/2 md:-translate-x-1/2 md:px-10">
       {/* Logo */}
       <div>
         <a

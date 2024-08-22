@@ -1,3 +1,4 @@
+import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
 import ScrollSpy from "react-ui-scrollspy";
 
@@ -10,9 +11,7 @@ const App = () => {
         offsetBottom={120}
         scrollThrottle={50}
       >
-        <div id="home" className="h-screen pt-20">
-          Home
-        </div>
+        <Hero />
         <div id="services" className="h-screen">
           serv
         </div>
