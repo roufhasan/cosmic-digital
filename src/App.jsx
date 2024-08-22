@@ -1,8 +1,29 @@
+import Navbar from "./components/Navbar";
+import ScrollSpy from "react-ui-scrollspy";
+
 const App = () => {
   return (
-    <h1 className="bg-purple-600 text-3xl font-bold text-white underline">
-      Hello world!
-    </h1>
+    <main className="font-Montserrat">
+      <Navbar />
+      <ScrollSpy
+        activeClass="active-scroll-spy"
+        offsetBottom={120}
+        scrollThrottle={50}
+      >
+        <div id="home" className="h-screen pt-20">
+          Home
+        </div>
+        <div id="services" className="h-screen">
+          serv
+        </div>
+        <div id="projects" className="h-screen">
+          projects
+        </div>
+        <div id="contact" className="h-screen">
+          contact
+        </div>
+      </ScrollSpy>
+    </main>
   );
 };
 
