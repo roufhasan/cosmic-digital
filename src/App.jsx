@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Achievements from "./components/Achievements/Achievements";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       >
         <Hero />
         <Services />
+        <Achievements />
         <Projects />
         <Testimonials />
         <Contact />

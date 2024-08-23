@@ -43,19 +43,19 @@ export const footerNavLinks = [
     category: "Features",
     links: [
       {
-        title: "Home",
+        title: "Page Builders",
         url: "/",
       },
       {
-        title: "Services",
+        title: "Theme Options",
         url: "#services",
       },
       {
-        title: "Projects",
+        title: "Theme Builder",
         url: "#projects",
       },
       {
-        title: "Contact",
+        title: "Template Library",
         url: "#contact",
       },
     ],
@@ -64,19 +64,19 @@ export const footerNavLinks = [
     category: "Resources",
     links: [
       {
-        title: "Home",
+        title: "Support Center",
         url: "/",
       },
       {
-        title: "Services",
+        title: "Documentation",
         url: "#services",
       },
       {
-        title: "Projects",
+        title: "Community",
         url: "#projects",
       },
       {
-        title: "Contact",
+        title: "Hosting",
         url: "#contact",
       },
     ],
@@ -85,19 +85,19 @@ export const footerNavLinks = [
     category: "Social",
     links: [
       {
-        title: "Home",
+        title: "Behance",
         url: "/",
       },
       {
-        title: "Services",
+        title: "Dribble",
         url: "#services",
       },
       {
-        title: "Projects",
+        title: "LinkedIn",
         url: "#projects",
       },
       {
-        title: "Contact",
+        title: "Instagram",
         url: "#contact",
       },
     ],
