@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { BsList, BsX } from "react-icons/bs";
-import { navLinks } from "../assets/data/navLinks";
+import { navLinks, footerNavLinks } from "../assets/data/navLinks";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -39,17 +39,17 @@ const Navbar = () => {
             <BsX className="absolute right-4 top-4 text-3xl" />
           </button>
           <div className="space-y-5">
-            {navLinks.map((link, index) => (
+            {footerNavLinks[0].links.map(({ title, url }, index) => (
               <li
                 key={index}
                 className="text-center"
                 onClick={() => setShowMenu(false)}
               >
                 <a
-                  href={link.url}
+                  href={url}
                   className="inline-block rounded-full px-2 py-1 text-lg font-medium capitalize"
                 >
-                  {link.title}
+                  {title}
                 </a>
               </li>
             ))}

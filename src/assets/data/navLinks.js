@@ -16,3 +16,90 @@ export const navLinks = [
     url: "#contact",
   },
 ];
+
+export const footerNavLinks = [
+  {
+    category: "Company",
+    links: [
+      {
+        title: "Home",
+        url: "/",
+      },
+      {
+        title: "Services",
+        url: "#services",
+      },
+      {
+        title: "Projects",
+        url: "#projects",
+      },
+      {
+        title: "Contact",
+        url: "#contact",
+      },
+    ],
+  },
+  {
+    category: "Features",
+    links: [
+      {
+        title: "Home",
+        url: "/",
+      },
+      {
+        title: "Services",
+        url: "#services",
+      },
+      {
+        title: "Projects",
+        url: "#projects",
+      },
+      {
+        title: "Contact",
+        url: "#contact",
+      },
+    ],
+  },
+  {
+    category: "Resources",
+    links: [
+      {
+        title: "Home",
+        url: "/",
+      },
+      {
+        title: "Services",
+        url: "#services",
+      },
+      {
+        title: "Projects",
+        url: "#projects",
+      },
+      {
+        title: "Contact",
+        url: "#contact",
+      },
+    ],
+  },
+  {
+    category: "Social",
+    links: [
+      {
+        title: "Home",
+        url: "/",
+      },
+      {
+        title: "Services",
+        url: "#services",
+      },
+      {
+        title: "Projects",
+        url: "#projects",
+      },
+      {
+        title: "Contact",
+        url: "#contact",
+      },
+    ],
+  },
+];
