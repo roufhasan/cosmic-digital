@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import ScrollSpy from "react-ui-scrollspy";
 import Services from "./components/Services/Services";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
@@ -16,9 +17,7 @@ const App = () => {
         <Hero />
         <Services />
         <Projects />
-        <div id="contact" className="h-screen">
-          contact
-        </div>
+        <Contact />
       </ScrollSpy>
     </main>
   );
