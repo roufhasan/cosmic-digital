@@ -1,7 +1,7 @@
 export const navLinks = [
   {
     title: "home",
-    url: "/",
+    url: "#home",
   },
   {
     title: "services",
@@ -23,7 +23,7 @@ export const footerNavLinks = [
     links: [
       {
         title: "Home",
-        url: "/",
+        url: "#home",
       },
       {
         title: "Services",
@@ -44,7 +44,7 @@ export const footerNavLinks = [
     links: [
       {
         title: "Page Builders",
-        url: "/",
+        url: "#home",
       },
       {
         title: "Theme Options",
@@ -65,7 +65,7 @@ export const footerNavLinks = [
     links: [
       {
         title: "Support Center",
-        url: "/",
+        url: "#home",
       },
       {
         title: "Documentation",
@@ -86,7 +86,7 @@ export const footerNavLinks = [
     links: [
       {
         title: "Behance",
-        url: "/",
+        url: "#home",
       },
       {
         title: "Dribble",

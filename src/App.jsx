@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import ScrollSpy from "react-ui-scrollspy";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
