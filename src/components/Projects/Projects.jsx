@@ -17,7 +17,8 @@ const Projects = () => {
           <div key={id} className="group cursor-pointer">
             <img
               src={projectImg}
-              alt=""
+              alt={title}
+              loading="lazy"
               className="rounded-lg transition-all duration-300 ease-in-out group-hover:scale-95"
             />
 

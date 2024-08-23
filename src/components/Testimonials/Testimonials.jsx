@@ -36,7 +36,8 @@ const Testimonials = () => {
                       <div className="flex gap-5">
                         <img
                           src={profileImg}
-                          alt=""
+                          alt={`${name} image`}
+                          loading="lazy"
                           className="h-16 w-16 rounded-[50%] border border-[#F7A582]"
                         />
                         <div>

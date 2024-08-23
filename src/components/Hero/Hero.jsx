@@ -42,7 +42,12 @@ const Hero = () => {
             <Button>Get Started</Button>
           </div>
           <div className="md:w-1/2">
-            <img src={sliderImg1} alt="" className="w-full" />
+            <img
+              src={sliderImg1}
+              alt="laptop"
+              loading="lazy"
+              className="w-full"
+            />
           </div>
         </div>
       </SwiperSlide>
@@ -69,17 +74,20 @@ const Hero = () => {
           <div className="grid grid-cols-12 grid-rows-2 gap-3 py-2.5 md:mt-10 md:w-1/2">
             <img
               src={sliderImg2}
-              alt=""
+              alt="graphics"
+              loading="lazy"
               className="col-span-5 row-span-2 h-full w-full rounded object-cover shadow"
             />
             <img
               src={sliderImg3}
-              alt=""
+              alt="graphics"
+              loading="lazy"
               className="col-span-7 h-full w-full rounded object-cover shadow"
             />
             <img
               src={sliderImg4}
-              alt=""
+              alt="graphics"
+              loading="lazy"
               className="col-start-6 col-end-13 h-full w-full rounded object-cover shadow"
             />
           </div>
@@ -106,7 +114,12 @@ const Hero = () => {
             <Button>Contact Us</Button>
           </div>
           <div className="md:w-[60%]">
-            <img src={sliderImg5} alt="" className="w-[100%]" />
+            <img
+              src={sliderImg5}
+              alt="mobile"
+              loading="lazy"
+              className="w-[100%]"
+            />
           </div>
         </div>
       </SwiperSlide>
