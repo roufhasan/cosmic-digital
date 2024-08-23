@@ -7,8 +7,8 @@
 #testimonialSwiper .swiper-button-next {
   width: 50px;
   height: 50px;
-  color: white;
-  background: #f7a582;
+  color: #000;
+  background: #bef264;
   border-radius: 50%;
 }
 
@@ -26,8 +26,8 @@
 #testimonialSwiper .swiper-button-next.swiper-button-disabled {
   opacity: 1;
   background: white;
-  border: 1px solid #f7a582;
-  color: #f7a582;
+  border: 1px solid #bef264;
+  color: #bef264;
 }
 
 @media only screen and (max-width: 768px) {
