@@ -12,11 +12,12 @@ const Services = () => {
         subTitle={"our services"}
       />
 
+      {/* Cards Container */}
       <div className="grid grid-cols-1 gap-5 gap-y-8 sm:grid-cols-2 md:grid-cols-3">
         {servicesData.map(({ id, name, details, Icon, iconColor, iconBg }) => (
           <div
             key={id}
-            className="group cursor-pointer border border-transparent px-4 py-6 shadow transition-all ease-in-out hover:border-gray-100 hover:shadow-lg"
+            className="group cursor-pointer border border-transparent px-4 py-6 shadow transition-all ease-in-out hover:-translate-y-2 hover:border-gray-100 hover:shadow-lg"
           >
             <Icon
               className="size-10 rounded px-2 py-0.5"
